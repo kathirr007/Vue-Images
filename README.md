@@ -1,5 +1,7 @@
 # vue-images
 
+[![Build Status](https://travis-ci.org/kathirr007/Vue-Images.svg?branch=master)](https://travis-ci.org/kathirr007/Vue-Images)
+
 ## Project setup
 ```
 npm install
