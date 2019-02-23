@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/kathirr007/Vue-Images.svg?branch=master)](https://travis-ci.org/kathirr007/Vue-Images)
 
+### Practice Vue Project from VueJs Essential Training Vue-Images (Using Imgur API)
+
+To check live version please checkout **[here](https://kathirr007.github.io/Vue-Images/)**
+
 ## Project setup
 ```
 npm install
