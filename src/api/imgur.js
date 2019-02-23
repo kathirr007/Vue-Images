@@ -2,7 +2,7 @@ import qs from 'qs';
 import axios from 'axios';
 
 const CLIENT_ID = 'fbb60590d660043';
-const ROOT_URL = 'https://kathirr007.github.io/Vue-Images/';
+const ROOT_URL = 'https://kathirr007.github.io/Vue-Images';
 
 export default {
   login() {
