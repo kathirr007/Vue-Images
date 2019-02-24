@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const CLIENT_ID = 'fbb60590d660043';
 const ROOT_URL = 'https://api.imgur.com';
-const REDIRECT_URI = 'https://kathirr007.github.io/Vue-Images';
+const REDIRECT_URI = '/Vue-Images/';
 
 export default {
   login() {
