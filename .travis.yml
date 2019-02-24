@@ -23,7 +23,7 @@ after_failure:
 after_script:
 before_deploy:
     env:
-        - GITHUB_TOKEN = '8f0230cb4dab3b92898ace43abc85e0c34387d91'
+        - GITHUB_TOKEN = 8f0230cb4dab3b92898ace43abc85e0c34387d91
 deploy:
 # Standard GH-Pages Deploy  
   provider: pages
