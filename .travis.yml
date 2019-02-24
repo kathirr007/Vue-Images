@@ -13,12 +13,12 @@ before_script:
 script:
 # - chmod +x ./deploy-ghpages.sh
 # - yarn build # Change this script to run your production build command
-# - chmod +x ./deploy.sh
-- "./deploy.sh"
+- chmod +x ./deploy.sh
+# - "./deploy.sh"
 after_success:
 # this "deploy.sh" has code to deploy files generated from vue production build
 # - gulp deploy
-# - "./deploy.sh"
+- "./deploy.sh"
 after_failure:
 after_script:
 before_deploy:
