@@ -10,7 +10,7 @@ export default {
     const querystring = {
       client_id: CLIENT_ID,
       response_type: 'token',
-      redirect_uri=REDIRECT_URI
+      redirect_uri: REDIRECT_URI
     };
 
     window.location = `${ROOT_URL}/oauth2/authorize?${qs.stringify(querystring)}`;
