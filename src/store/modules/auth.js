@@ -19,12 +19,12 @@ const actions = {
 
     commit('setToken', query.access_token);
     window.localStorage.setItem('imgur_token', query.access_token);
-    router.push('/');
+    process.env.NODE_ENV === 'production' ? router.push('/Vue-Images/') : router.push('/');
   },
   logout: ({ commit }) => {
     commit('setToken', null);
     window.localStorage.removeItem('imgur_token');
-    router.push('/');
+    process.env.NODE_ENV === 'production' ? router.push('/Vue-Images/') : router.push('/');    
   }
 };
 
