@@ -4,7 +4,7 @@ node_js:
 # - '8.10.0'
 cache: yarn
 env:
-    - GITHUB_TOKEN = "8f0230cb4dab3b92898ace43abc85e0c34387d91"
+    GITHUB_TOKEN : "8f0230cb4dab3b92898ace43abc85e0c34387d91"
 before_install:
 # - chmod 755 ./deploy.sh
 install:
