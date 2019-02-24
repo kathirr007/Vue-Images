@@ -2,7 +2,7 @@ import qs from 'qs';
 import axios from 'axios';
 
 // const CLIENT_ID = 'fbb60590d660043';
-const CLIENT_ID = '601b6793f071d17';
+const CLIENT_ID = '2565faab6b356c2';
 const ROOT_URL = 'https://api.imgur.com';
 const REDIRECT_URI = 'https://kathirr007.github.io/Vue-Images/';
 
