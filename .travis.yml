@@ -26,7 +26,7 @@ after_script:
 before_deploy:
     # env:
     #     - GITHUB_TOKEN = 8f0230cb4dab3b92898ace43abc85e0c34387d91
-    travis encrypt GITHUB_TOKEN=8f0230cb4dab3b92898ace43abc85e0c34387d91 --add env.gh_token
+    travis encrypt GITHUB_TOKEN=8f0230cb4dab3b92898ace43abc85e0c34387d91 --add env.gh-token
 deploy:
 # Standard GH-Pages Deploy  
   provider: pages
