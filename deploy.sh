@@ -18,7 +18,7 @@ git commit -m 'deploy'
 
 # ssh-keygen -t rsa -b 4096 -C "kathirr007@gmail.com"
 ssh-keygen -t rsa -b 4096 -C "kathirr007@gmail.com" -f /home/travis/.ssh/id_rsa -q -P ""
-ssh-add -K ~/.ssh/id_rsa.pub
+ssh-add -K /home/travis/.ssh/id_rsa.pub
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
