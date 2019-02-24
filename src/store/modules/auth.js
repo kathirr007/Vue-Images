@@ -19,12 +19,14 @@ const actions = {
 
     commit('setToken', query.access_token);
     window.localStorage.setItem('imgur_token', query.access_token);
-    process.env.NODE_ENV === 'production' ? router.push('/Vue-Images/') : router.push('/');
+    router.push('/');
+    window.location = "https://kathirr007.github.io/Vue-Images/"
   },
   logout: ({ commit }) => {
     commit('setToken', null);
     window.localStorage.removeItem('imgur_token');
-    process.env.NODE_ENV === 'production' ? router.push('/Vue-Images/') : router.push('/');    
+    router.push('/');    
+    window.location = "https://kathirr007.github.io/Vue-Images/"
   }
 };
 

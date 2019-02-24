@@ -3,14 +3,13 @@ import axios from 'axios';
 
 const CLIENT_ID = 'fbb60590d660043';
 const ROOT_URL = 'https://api.imgur.com';
-const REDIRECT_URI = '/Vue-Images/';
+const REDIRECT_URI = 'https://kathirr007.github.io/Vue-Images/';
 
 export default {
   login() {
     const querystring = {
       client_id: CLIENT_ID,
-      response_type: 'token',
-      redirect_uri: REDIRECT_URI
+      response_type: 'token'
     };
 
     window.location = `${ROOT_URL}/oauth2/authorize?${qs.stringify(querystring)}`;
