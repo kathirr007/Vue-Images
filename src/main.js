@@ -13,6 +13,7 @@ export const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', component: ImageList },
+    { path: '/galleries', component: ImageList },
     { path: '/upload', component: UploadForm },
     { path: '/oauth2/callback', component: AuthHandler }
   ]
