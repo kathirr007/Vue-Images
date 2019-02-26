@@ -74,8 +74,6 @@ img {
         position: relative;
         img {
           border-radius: 5px;
-          -webkit-filter: blur(1px);
-          filter: blur(1px);
         }
         .dark-overlay {
           background-color: rgba(0,0,0,0.3);
@@ -108,8 +106,6 @@ img {
           transition: all .3s ease-in-out;
           z-index: 2;
           border-radius: 5px;
-          -webkit-filter: blur(0);
-          filter: blur(0);
         }
         .dark-overlay {
           opacity: 0;
