@@ -48,6 +48,12 @@ export default {
 .image-container {
   column-count: 3;
   column-gap: 0;
+  @media screen and (max-width: 900px) {
+    column-count: 2;
+  }
+  @media screen and (max-width: 600px) {
+    column-count: 1;
+  }
 }
 img {
   max-width: 100%;
@@ -90,6 +96,12 @@ img {
       &:hover {
         box-shadow: 1px 2px 3px darkgrey;
         transform: scale3d(1.2, 1.2, 1);
+        @media screen and (max-width: 900px) {
+          transform: scale3d(1.1,1.1,1);
+        }
+        @media screen and (max-width: 600px) {
+          transform: scale3d(1,1,1);
+        }
         z-index: 2;
         background: darkgrey;
         img{
