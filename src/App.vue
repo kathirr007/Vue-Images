@@ -15,6 +15,12 @@ export default {
   name: 'App',
   components: {
     AppHeader
+  },
+  mounted(){
+    // $('#imageContainer').unitegallery();
+  },
+  updated(){
+    // $('#imageContainer').unitegallery();
   }
 };
 </script>

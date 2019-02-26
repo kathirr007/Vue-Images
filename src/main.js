@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import vGallery from 'v-gallery';
 import VueRouter from 'vue-router';
 import App from './App';
 import store from './store';
@@ -7,6 +8,8 @@ import ImageList from './components/ImageList';
 import UploadForm from './components/UploadForm';
 
 Vue.use(VueRouter);
+Vue.use(vGallery);
+
 
 export const router = new VueRouter({
   mode: 'history',
