@@ -25,5 +25,15 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@media screen and (max-width: 600px){
+  .v-gallery {
+    .blueimp-gallery-controls {
+      a.next, a.prev {
+        display: none !important;
+      }
+    }
+  }
+}
+
 </style>
