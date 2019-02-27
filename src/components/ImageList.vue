@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  $primary : teal;
 .image-container {
   column-count: 3;
   column-gap: 0;
@@ -73,7 +74,10 @@ img {
       .bgbox {
         position: relative;
         img {
-          border-radius: 5px;
+          border-radius: 3px;
+          display: block;
+          padding: 0;
+          border: 2px solid teal;
         }
         .dark-overlay {
           background-color: rgba(0,0,0,0.3);
@@ -92,20 +96,21 @@ img {
         }
       }
       &:hover {
-        box-shadow: 1px 2px 3px darkgrey;
+        // box-shadow: 1px 2px 3px darkgrey;
         transform: scale3d(1.2, 1.2, 1);
+        z-index: 2;
+        background: $primary;
         @media screen and (max-width: 900px) {
           transform: scale3d(1.1,1.1,1);
         }
         @media screen and (max-width: 600px) {
           transform: scale3d(1,1,1);
         }
-        z-index: 2;
-        background: darkgrey;
         img{
           transition: all .3s ease-in-out;
           z-index: 2;
           border-radius: 5px;
+          border: 4px solid darkcyan;
         }
         .dark-overlay {
           opacity: 0;
